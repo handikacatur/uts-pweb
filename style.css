@@ -1,0 +1,19 @@
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    z-index: 99999;
+}
+
+.overlay.show {
+    bottom: 0;
+    right: 0; 
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .3s ease-in-out;
+}
